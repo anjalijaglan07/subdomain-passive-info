@@ -22,64 +22,58 @@ A simple Bash tool for passive reconnaissance on a target domain. It gathers WHO
    ```bash
    git clone https://github.com/anjalijaglan07/subdomain-passive-info.git
    cd subdomain-passive-info
-Make the script executable:
+2. Make the script executable:
+   ```bash
+   chmod +x subdomain-passive-info.sh
 
-bash
+---
 
-chmod +x subdomain-passive-info.sh
-Usage
+## Usage
 Run the script and follow the prompts:
-
-bash
-Copy
-Edit
+```bash
 ./subdomain-passive-info.sh
-Enter your target domain (e.g. example.com)
+```
+1. Enter your target domain (e.g. `example.com`)
+2. Choose scan type:
 
-Choose scan type:
+-`p` → Passive information gathering (DMITRY)
 
-p → Passive information gathering (DMITRY)
+-`sb` → Subdomain enumeration (Assetfinder + Subfinder)
 
-sb → Subdomain enumeration (Assetfinder + Subfinder)
+3. Outputs will be saved as:
 
-Outputs will be saved as:
+-`whois.txt`
 
-whois.txt
+-`assetfinder.txt`
 
-assetfinder.txt
+-`subfinder.txt`
 
-subfinder.txt
+-`subdomain-output.txt`
 
-subdomain-output.txt
+---
 
-Prerequisites
-Ensure the following tools are installed and available in your $PATH:
-
-bash
-Copy
-Edit
+## Prerequisites
+Ensure the following tools are installed and available in your $`PATH`:
+```bash
 # Debian/Ubuntu
 sudo apt update && sudo apt install -y whois dmitry
 
 # Go-based tools (ensure Go is installed)
 go install github.com/tomnomnom/assetfinder@latest
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-File Structure
-pgsql
-Copy
-Edit
+```
+---
+## File Structure
+```
 subdomain-passive-info/
 ├── subdomain-passive-info.sh  
 ├── README.md  
-└── LICENSE  
-License
-This project is licensed under the MIT License. See LICENSE for details.
+---
 
-makefile
+## Contact
 
-::contentReference[oaicite:0]{index=0}
-
-
-
-
+**Anjali Jaglan**  
+B.Tech in Cyber-Security, PIET Panipat  
+LinkedIn: [anjali-jaglan-3968b8248](https://www.linkedin.com/in/anjali-jaglan-3968b8248)  
+GitHub: [anjali-jaglan07](https://github.com/anjalijaglan07)  
 
