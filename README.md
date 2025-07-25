@@ -1,5 +1,3 @@
-ChatGPT said:
-markdown
 
 # subdomain-passive-info
 
