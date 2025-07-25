@@ -67,7 +67,9 @@ go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
 subdomain-passive-info/
 ├── subdomain-passive-info.sh  
-├── README.md  
+├── README.md
+
+```
 ---
 
 ## Contact
